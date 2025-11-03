@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/weather.ts": {
+      "runtime": "edge",
+      "maxDuration": 10
+    }
+  },
+  "routes": [
+    { "src": "/api/opal/weather", "dest": "/api/weather" }
+  ]
+}
