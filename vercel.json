@@ -6,6 +6,6 @@
     }
   },
   "routes": [
-    { "src": "/api/opal/weather", "dest": "/api/weather" }
+    { "src": "/api/weather", "dest": "/api/weather" }
   ]
 }
